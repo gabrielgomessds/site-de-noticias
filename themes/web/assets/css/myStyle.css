@@ -1,0 +1,105 @@
+.link-default h4{
+    color: #ed4141 !important;
+}
+
+.link-default h4:hover{
+    color: #c25100 !important;
+    transition: .1s;
+}
+
+.link p:hover{
+    color: red !important;
+}
+
+.input_form{
+    background-color: #efefef !important;
+    color: #ed4141 !important;
+}
+
+.font-basic{
+    font-size: 16px !important;
+    color: #999999 !important;
+}
+
+.link_default{
+    color: #cf2b1e;
+    font-weight: bold;
+}
+.link_default:hover{
+    color: red;
+}
+
+.link_default_two{
+    color: #2f80ed;
+    font-weight: bold;
+}
+
+.link_default_two:hover{
+    color: #56ccf2;
+}
+
+.status_news{
+    color: white !important;
+    padding: 6px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+.status_news span{
+    color: white !important;
+    font-weight: 18px;
+}
+
+.private{
+    background-color: #cf2b1e;
+}
+
+.public{
+    background-color: #219653;
+}
+
+.font_default{
+    color: white !important;
+    font-size: 16px !important;
+    font-weight: bold;
+}
+
+.myButton{
+    padding: 6px 10px;
+    border-radius: 3px;
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.myButton-large{
+    padding: 15px 46px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.5s;
+    margin-bottom: 10px;
+   
+}
+.myButton-large:hover{
+    opacity: 1.5 !important;
+    
+}
+
+.link_text{
+    color: white !important;
+}
+.link_text:hover{
+    color:#dc3545 !important;
+    transition: .2s;
+}
+.span_info{
+    padding: 6px 18px;
+    border-radius: 6px;
+    font-size: 15px !important;
+    color: #FFF;
+    font-weight: bold;
+}

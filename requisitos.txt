@@ -1,0 +1,59 @@
+**NEWS**
+- id
+- title
+- image
+- content
+- uri
+- author_id
+- category
+- position
+- views
+- status
+- created_at
+- updated_at
+
+**CATEGORIES**
+- id
+- name
+- color
+- author_id
+- created_at
+
+**ADMINS**
+- id
+- name
+- last_name
+- email
+- password
+- created_at
+- updated_at
+
+**CONTACTS**
+- id
+- name
+- subject
+- message
+- email
+- status
+- created_at
+
+**ADS**
+- id
+- name
+- email
+- owner
+- image
+- type
+- link
+- status
+- clicks
+- created_at
+- updated_at
+
+
+**INCRIPTIONS**
+- id
+- email
+- status
+- created_at
+- updated_at
