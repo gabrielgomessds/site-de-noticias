@@ -4,7 +4,7 @@ O News é um site de noticias, você pode adicionar nele além de noticias propa
 
 <h3>Tecnologias:</h3>
 <ol>
-  <li>PHP</li>
+  <li>PHP USANDO MVC POO</li>
   <li>JQUERY</li>
   <li>BOOSTSTRAP</li>
 </ol>
