@@ -37,6 +37,21 @@ Quando uma categoria é escolhida mostra todas as noticias que pertencem a ela:
 Quando uma noticia especifica é aberta essa é a tela:
 ![noticia](https://user-images.githubusercontent.com/65027607/197532988-41aa37a0-0629-4c77-b37a-3dcaa4671700.png)
 
-Por fim, um formulario de contato:
+Formulario de contato:
 ![contato](https://user-images.githubusercontent.com/65027607/197533177-fee7270b-e938-4464-8ad7-eccf9008df96.png)
 
+Pode-se acessar a parte do admim adicionando a url o /admin e já é mostrado uma tela de login
+![login](https://user-images.githubusercontent.com/65027607/199551501-b0a194ad-8bf2-441b-ad3b-519acbdce384.PNG)
+
+Foi criado um dashboard onde mostra todas as informações das noticias?
+![admin](https://user-images.githubusercontent.com/65027607/199551041-a84733fa-1cc9-4661-9101-d97d7ddd4e5b.PNG)
+
+Pode-se ver todos os dados cadastrados, além é claro de poder criar, ler, editar e deletar esses dados
+![tabela](https://user-images.githubusercontent.com/65027607/199551273-dd511602-b909-4bac-9a4c-22b2db840981.PNG)
+
+Formulario para poder criar e editar as noticias. Para saber qual ação fazer vai depender se algum parametro é passado
+na URL além de ter um input indicando a ação que será feita
+![form_add_edit](https://user-images.githubusercontent.com/65027607/199551637-b0557a0d-2c61-43ac-9195-252d153d4afd.PNG)
+
+Por último, todas as noticias são previsualizadas antes de serem enfim postadas
+![view_news](https://user-images.githubusercontent.com/65027607/199552027-0ed5091d-bc47-4f10-bbfa-242598707b3f.PNG)
