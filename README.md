@@ -8,11 +8,12 @@ O projeto foi desenvolvido usando PHP Orientado a Objetos seguindo o padrão MVC
 <ol>
   <li>PHP USANDO MVC POO</li>
   <li>JQUERY</li>
+  <li>AJAX</li>
   <li>BOOSTSTRAP</li>
 </ol>
 
 <h3>Como usar:</h3>
-Caso queira experimentar o projeto em sua maquina é necessario ter no minimo o PHP 7.2 instaldo além do composer.
+Caso queira experimentar o projeto em sua maquina é necessario ter o PHP 7.2 instaldo além do composer. Você também precisaá de um servidor local como xampp ou wampp
 Após baixar o projeto rode o comando  composer install. Não esqueça de rodar o arquivo de banco de dados em um banco MYSQL.
 
 <h3>Funcionalidade: </h3>
