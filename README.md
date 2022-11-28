@@ -1,8 +1,11 @@
 # site-de-noticias
 
-<h3>Sobre o projeto</h3>
+<h3>Sobre o projeto:</h3>
 O News é um site de noticias, você pode adicionar nele além de noticias propagandas do seus patrocinadores. <br/>
 O projeto foi desenvolvido usando PHP Orientado a Objetos seguindo o padrão MVC, além disso, foi utilizado AJAX em suas requisições.
+
+<h3>Objetivo: </h3>
+Me aperfeiçoar no uso de tecnologias como AJAX e JQUERY juntos ao PHP, além de seguir e praticar o padrão da PSR-4 que é muito utilizado.
 
 <h3>Tecnologias:</h3>
 <ol>
@@ -10,10 +13,11 @@ O projeto foi desenvolvido usando PHP Orientado a Objetos seguindo o padrão MVC
   <li>JQUERY</li>
   <li>AJAX</li>
   <li>BOOSTSTRAP</li>
+  <li>MYSQL</li>
 </ol>
 
 <h3>Como usar:</h3>
-Caso queira experimentar o projeto em sua maquina é necessario ter o PHP 7.2 instaldo além do composer. Você também precisaá de um servidor local como xampp ou wampp
+Caso queira experimentar o projeto em sua maquina é necessario ter o PHP 7.2 instaldo além do composer. Você também precisará de um servidor local como xampp ou wampp.
 Após baixar o projeto rode o comando  composer install. Não esqueça de rodar o arquivo de banco de dados em um banco MYSQL.
 
 <h3>Funcionalidade: </h3>
