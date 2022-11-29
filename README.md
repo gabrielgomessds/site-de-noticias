@@ -16,10 +16,6 @@ Me aperfeiçoar no uso de tecnologias como AJAX e JQUERY juntos ao PHP, além de
   <li>MYSQL</li>
 </ol>
 
-<h3>:dart: Como usar:</h3>
-Caso queira experimentar o projeto em sua maquina é necessario ter o PHP 7.2 instaldo além do composer. Você também precisará de um servidor local como xampp ou wampp.
-Após baixar o projeto rode o comando  composer install. Não esqueça de rodar o arquivo de banco de dados em um banco MYSQL.
-
 <h3>:wrench: Funcionalidades: </h3>
 <ol>
   <li>Cadastro de noticias </li>
@@ -27,6 +23,13 @@ Após baixar o projeto rode o comando  composer install. Não esqueça de rodar 
   <li>Adicionar categoria as noticias</li>
   <li>Busca de noticias</li>
   <li>Área para contato</li>
+</ol>
+
+<h3>:dart: Como usar:</h3>
+<ol>
+  <li>Ter intalado o php 7.2</li>
+  <li>Ter instalado algum servidor local como o xampp</li>
+  <li>Rode o arquivo banco_de_dados.sql no seu banco de dados</li>
 </ol>
 
 <h3>:camera: Imagens do Projeto:</h3>
