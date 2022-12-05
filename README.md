@@ -32,9 +32,8 @@ Me aperfeiçoar no uso de tecnologias como AJAX e JQUERY juntos ao PHP, além de
   <li>Ter instalado algum servidor local como o xampp</li>
   <li>Rode o arquivo banco_de_dados.sql no seu banco de dados</li>
 </ol>
-<b>Rode o comando no seu terminal:</b>
 
-<br/>
+<b>Rode o comando no terminal na pasta do seu projeto:</b>
 
 ```
 composer install
