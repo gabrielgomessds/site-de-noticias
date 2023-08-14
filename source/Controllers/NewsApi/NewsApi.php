@@ -82,7 +82,7 @@ class NewsApi extends Controller
             )->back();
             return false;
         }
-
+ 
         $auth = new AuthAdmin();
         $user = $auth->attempt($this->headers["email"], $this->headers["password"], 1);
 

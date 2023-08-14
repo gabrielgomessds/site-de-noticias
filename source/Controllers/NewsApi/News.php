@@ -67,5 +67,5 @@ class News extends NewsApi
         $this->back(["news" => $news->data()]);
        
     }
-
+ 
 }

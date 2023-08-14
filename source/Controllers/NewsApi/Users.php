@@ -13,6 +13,6 @@ class Users extends NewsApi
     {
         $response = $this->headers;
         $this->back($response);
-    }
+    } 
 
 }
