@@ -2,6 +2,7 @@
 
 namespace Source\Models;
 
+use Source\Controllers\NewsApi\Users;
 use Source\Core\Model;
 
 /**
@@ -63,6 +64,48 @@ class News extends Model
             return (new Admin())->findById($this->author_id);
         }
         return null;
+    }
+
+
+    public function launch(Admin $admin, array $data): ?News
+    {
+        $data = filter_var_array($data, FILTER_SANITIZE_STRIPPED);
+
+        if (
+            empty($data["title"]) || empty($data["category_id"]) || empty($data["content"])
+            || empty($data["uri"]) || empty($data["position"])
+            || empty($data["status"]) || empty($data["image"])
+        ) {
+            $this->message->error("Faltam dados para adicionar a noticia");
+            return null;
+        }
+
+        $author = (new Admin())->findById($admin->id);
+        if (!$author) {
+            $this->message->error("O admin que você informou não existe");
+            return null;
+        }
+
+        $category = (new Categories())->findById($data["category_id"]);
+        if (!$category) {
+            $this->message->error("A categoria que você informou não existe");
+            return null;
+        }
+
+        $this->title = $data["title"];
+        $this->content = $data["content"];
+        $this->category_id =$data["category_id"];
+        $this->author_id = $admin->id;
+        $this->uri = $data["uri"];
+        $this->position = $data["position"];
+        $this->status = $data["status"];
+        $this->image = $data["image"];
+
+        if (!$this->save()) {
+            return null;
+        }
+
+        return $this;
     }
 
     public function category(): ?Categories

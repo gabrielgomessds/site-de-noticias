@@ -70,6 +70,44 @@ class AuthAdmin extends Model
         return true;
     }
 
+        /**
+     * @param string $email
+     * @param string $password
+     * @param int $level
+     * @return User|null
+     */
+    public function attempt(string $email, string $password, int $level = 1): ?Admin
+    {
+        if (!is_email($email)) {
+            $this->message->warning("O e-mail informado não é válido");
+            return null;
+        }
+
+        if (!is_passwd($password)) {
+            $this->message->warning("A senha informada não é válida");
+            return null;
+        }
+
+        $admin = (new Admin())->findByEmail($email);
+
+        if (!$admin) {
+            $this->message->error("O e-mail informado não está cadastrado");
+            return null;
+        }
+
+        if (!passwd_verify($password, $admin->password)) {
+            $this->message->error("A senha informada não confere");
+            return null;
+        }
+
+        if (passwd_rehash($admin->password)) {
+            $admin->password = $password;
+            $admin->save();
+        }
+
+        return $admin;
+    }
+
     /**
      * @param string $email
      * @param string $password

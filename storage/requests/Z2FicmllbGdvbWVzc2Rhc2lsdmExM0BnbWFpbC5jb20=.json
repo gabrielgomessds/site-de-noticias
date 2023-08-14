@@ -1,0 +1,12 @@
+{
+    "newsApi": {
+        "limit": 1,
+        "requests": 1,
+        "time": 1675896388
+    },
+    "newsApiCreate": {
+        "limit": 5,
+        "requests": 1,
+        "time": 1675896447
+    }
+}

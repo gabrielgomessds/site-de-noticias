@@ -59,6 +59,17 @@ class Admin extends Model
         return "{$this->first_name} {$this->last_name}";
     }
 
+    public function start(Admin $admin): ?Admin
+    {
+        if ($this->find("id = :id", "id={$admin->id}")->count()) {
+            $this->admin_id = $admin->id;
+            return $this;
+        }
+        return null;
+    }
+
+
+
     /**
      * @return string|null
      */
